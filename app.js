@@ -1,4 +1,4 @@
-(function(){
+$(function(){
     $('#bsup_inicio').click(function(){
         $('.page').fadeOut();
         $('#home_page').fadeIn();
