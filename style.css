@@ -178,6 +178,12 @@ body{
 	height: auto;
 }
 
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+  }
+
 /* SLIDER */
 
 #hcg-slider-1{
