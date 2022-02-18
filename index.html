@@ -1,13 +1,82 @@
 <html>
   <head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="app.js" type="text/javascript"></script>
     <title>SAHP | LSPD EvilRP</title>
     <link rel = "icon" href ="https://raw.githubusercontent.com/ivanprogamer43/sahp-evil-rp/main/img/icon.png" type = "image/x-icon">
+    <link rel="stylesheet" href = "style.css" type="text/css">
   </head>
   <body>
-    <link rel="stylesheet" href = "https://raw.githubusercontent.com/ivanprogamer43/sahp-evil-rp/main/style.css" type="text/css">
-
+    <!-- <link rel="stylesheet" href = "https://raw.githubusercontent.com/ivanprogamer43/sahp-evil-rp/main/style.css" type="text/css"> -->
     <div id="header">
-      
+      <img id="logo_sa" src="img/SA.png"/><img id="text_sahp" src="img/text.png"/>
+      <div id="lema"><i>"Safety, Service, and Security"</i></div>
+      <div id="buttons_bar">
+        <div align="center">
+          <button id="bsup_inicio" class="boton_sup">INICIO</button><button id="bsup_normas" class="boton_sup">NORMATIVA</button>
+          <button id="bsup_adm" class="boton_sup">ADMISIÓN</button>
+          <button id="bsup_dir" class="boton_sup">DIRECCIÓN</button><button id="bsup_contact" class="boton_sup">CONTACTO</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="home_page" class="page">
+      <div id="hcg-slider-1" class="hcg-slider">
+        <div class="hcg-slide-container">
+          <div class="hcg-slider-body">
+            <a class="hcg-slides animated" style="display:block">
+              <span class="hcg-slide-number">1/5</span>
+              <img src="https://www.html-code-generator.com/images/slider/1.png" alt="image 1">
+              <span class="hcg-slide-text">image 1</span>
+            </a>
+          </div>
+        </div>
+        <div class="hcg-slide-dot-control"></div>
+        </div>
+        <div class="separator"></div>
+        <header class="title"><i>Nuestra Historia</i></header>
+        <div id="historia">La SAHP fue originalmente fundada cuando el gobernador C. C. Young firmó una ley enviada por la Legislatura Estatal de San Andreas en 1929 para que se fundara. La ley fundó la agencia de patrulla de carreteras (dentro del Departamento de Vehículos Motorizados (DMV)) para asegurar la seguridad en las carreteras de San Andreas. La agencia asumió toda la responsabilidad conforme pasaba el tiempo, sin embargo la agencia fue anexionada al departamento de policia de Los Santos (LSPD) por el Gobernador Earl Warren en 1947.
+        </div>
+    </div>
+
+    <div id="normas_page" class="page">
+      <header class="title"><i>Normativa de la División</i></header>
+      <iframe class="docs_google" src="normativa.pdf"></iframe>
+      <div class="separator"></div>
+      <header class="title"><i>Manual de Procedimientos</i></header>
+      <iframe class="docs_google" src="manual.pdf"></iframe>
+    </div>
+
+    <div id="adm_page" class="page">
+      <header class="title"><i>¿Quieres formar parte del SAHP?</i></header>
+      <div id="estado_opos">res: 18/02/2022</div>
+      <div id="adm_results">
+        <header id="admitidos_title"></header>
+        <iframe style="margin-left:0vw;" class="docs_google" src="resolucion.pdf"></iframe>
+      </div>
+      <iframe id="formulario_adm" src="https://docs.google.com/forms/d/e/1FAIpQLScrA8XDCRsADlEqA5v6TkT9qcFBycPlNC9X8zvN30U6Gnl0cA/viewform?usp=sf_link"></iframe>
+    </div>
+
+    <div id="dir_page" class="page">
+      <div class="member">
+        <image class="profile_photo" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"></image>
+        <header><i>Coordinador</i></header>
+        <p>Sergeant I | Michael Moore</p>
+      </div>
+      <div class="member">
+        <image class="profile_photo" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"></image>
+        <header><i>Coordinador Adjunto</i></header>
+        <p>Police Officer II | ?¿? ?¿?</p>
+      </div>
+    </div>
+
+    <div id="contact_page" class="page">
+      <iframe id="formulario_contacto" src="https://docs.google.com/forms/d/e/1FAIpQLSfFzLjomiyXNnz2eRZkvJNGmGoe22yVjoVmCith-oyC-CJSRQ/viewform?usp=sf_link"></iframe>
+    </div>
+
+    <div id="bottom-info">
+      <image id="logo-evil" src="https://cdn.discordapp.com/attachments/827196452069048351/943984429523664897/IconoLSPDEVIL.png"></image>
+      <header id="web_info">© 2022 | SAHP Evil RP | Página ficticia empleada para su uso en RP | Diseñada por Ivan_44#2148</header>
     </div>
   </body>
 </html>
