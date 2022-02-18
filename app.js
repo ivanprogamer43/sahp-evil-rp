@@ -1,8 +1,3 @@
-('#bsup_normas').click(function(){
-    $('.page').fadeOut();
-    $('#normas_page').fadeIn();
-});
-
 (function(){
     $('#bsup_inicio').click(function(){
         $('.page').fadeOut();
