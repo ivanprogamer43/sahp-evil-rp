@@ -183,8 +183,8 @@ body{
     margin-top:10vh;
 }
 #hcg-slider-1 .hcg-slide-container {
-	width: 700px;
-	height: 300px;
+	width: 100vw;
+	height: 60vh;
 }
 .hcg-slider {
 	text-align: center;
@@ -206,7 +206,6 @@ body{
     border-radius: .5vh;
     box-shadow: 0 0 1vh #fbad23;
 	height: 100%;
-	overflow: hidden;
 	display: inline-block;
 	border-radius: 5px;
 	border: solid 1px #a0a0a0;
