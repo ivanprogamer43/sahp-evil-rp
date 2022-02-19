@@ -40,11 +40,9 @@ $(function(){
     // SLIDER //
     //If you want to include more images, add the link name and URL of the image in the array list below.
         let images_list = [
-            {"url":"https://www.html-code-generator.com/images/slider/1.png","name":"image 1","link":""},
-            {"url":"https://www.html-code-generator.com/images/slider/2.png","name":"image 2","link":""},
-            {"url":"https://www.html-code-generator.com/images/slider/3.png","name":"image 3","link":""},
-            {"url":"https://www.html-code-generator.com/images/slider/4.png","name":"image 4","link":""},
-            {"url":"https://www.html-code-generator.com/images/slider/5.png","name":"image 5","link":""}
+            {"url":"https://cdn.discordapp.com/attachments/832336966787792947/944597822882340894/unknown.png","name":"image 1","link":""},
+            {"url":"https://cdn.discordapp.com/attachments/832336966787792947/944599484602662962/unknown.png","name":"image 2","link":""},
+            {"url":"https://media.discordapp.net/attachments/839996648259321867/849731842214723634/unknown.png?width=819&height=420","name":"image 3","link":""}
         ];
     
         let slider_id = document.querySelector("#hcg-slider-1");
