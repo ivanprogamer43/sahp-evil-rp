@@ -43,7 +43,7 @@ $(function(){
             {"url":"https://cdn.discordapp.com/attachments/832336966787792947/944597822882340894/unknown.png","name":"image 1","link":""},
             {"url":"https://cdn.discordapp.com/attachments/832336966787792947/944599484602662962/unknown.png","name":"image 2","link":""},
             {"url":"https://media.discordapp.net/attachments/839996648259321867/849731842214723634/unknown.png","name":"image 3","link":""},
-            {"url":"https://cdn.discordapp.com/attachments/832336966787792947/944939658633175060/unknown.png","name":"image 4","link":""}
+            {"url":"https://cdn.discordapp.com/attachments/832336966787792947/944939658633175060/unknown.png","name":"image 4","link":""},
         ];
     
         let slider_id = document.querySelector("#hcg-slider-1");
