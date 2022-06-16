@@ -19,10 +19,10 @@ $(function(){
             $('#formulario_adm').hide();
             $('#adm_results').show();
             $('#admitidos_title').html(`<i>Resolucion de Acceso ${$('#estado_opos').text().replace("res:","")}</i>`)
-            $('#estado_opos').html('<i>Pruebas de Acceso: <span style="color:red">CERRADAS<span></i>')
+            $('#estado_opos').html('<i>Pruebas de Acceso: <span style="color:red">CERRADAS</span></i>')
         }else{
             $('#formulario_adm').hide();
-            $('#estado_opos').html('<i>Pruebas de Acceso: <span style="color:red">CERRADAS<span></i>')
+            $('#estado_opos').html('<i>Pruebas de Acceso: <span style="color:red">CERRADAS</span></i>')
         };
     });
 
