@@ -122,9 +122,10 @@ body{
 .docs_google{
 	border: 0;
 	height: 100vh;
-	width: 50%;
+	width: 80%;
 	margin: 2vh;
-	margin-left: 25vw;
+	margin-left: 50%;
+	transform: translateX(-50%);
 }
 
 #estado_opos{
