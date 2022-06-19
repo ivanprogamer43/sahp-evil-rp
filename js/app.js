@@ -14,7 +14,7 @@ $(function(){
         $('#adm_page').fadeIn();
         if($('#estado_opos').text() == 'open'){
             $('#formulario_adm').show();
-            $('#estado_opos').html(`<i>Pruebas de Acceso: <span style="color:green">ABIERTAS</span><span style = "color: #003b5a"></br> Instancia de acceso: 17/6/2022 - 19/6/2022 hasta las 18:00</br> Prueba Teórica: 21/6/2022 a las 18:00 en la comisaria de Mission Row</br> Pruebas Prácticas: 22/6/2022 a las 17:00 en la comisaria de Mission Row</span></i>`)
+            $('#estado_opos').html(`<i>Pruebas de Acceso: <span style="color:green">ABIERTAS</span><span style = "color: #003b5a"></br> Instancia de acceso: 17/6/2022 - 26/6/2022 hasta las 18:00</br> Prueba Teórica: 28/6/2022 a las 18:00 en la comisaria de Mission Row</br> Pruebas Prácticas: 29/6/2022 a las 17:00 en la comisaria de Mission Row</span></i>`)
         }else if($('#estado_opos').text().startsWith('res:') == true){
             $('#formulario_adm').hide();
             $('#adm_results').show();
